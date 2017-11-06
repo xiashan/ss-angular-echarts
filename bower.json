@@ -1,0 +1,33 @@
+{
+  "name": "ss-angular-echarts",
+  "version": "1.0.0",
+  "homepage": "https://github.com/xiashan/ss-angular-echarts",
+  "authors": [
+    "xiashan <xshbest@163.com>"
+  ],
+  "description": "angular baidu echarts",
+  "main": "./dist/ss-angular-echarts.min.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "angular",
+    "baidu",
+    "echarts"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.5.3",
+    "echarts": "~3.4"
+  },
+  "devDependencies": {
+    "bootstrap": "~3"
+  }
+}
