@@ -53,7 +53,8 @@
             showXAxis: true,
             showYAxis: true,
             showLegend: true,
-            stack: false
+            stack: false,
+            theme: 'shine',
         };
 
         $scope.data = [ pageload ];
