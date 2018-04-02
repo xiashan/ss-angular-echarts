@@ -127,7 +127,7 @@ function getLinkFunction($http, util, type) {
         }
         if (options.series.length) {
           chart.hideLoading();
-          chart.setOption(options);
+          chart.setOption(options, true);
           // chart.resize();
         } else {
           chart.clear();
